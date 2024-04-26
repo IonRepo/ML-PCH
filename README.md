@@ -1,15 +1,6 @@
 # Machine Learning-Aided First-Principles Prediction of Earth-Abundant Pnictogen Chalcohalide Solid Solutions for Multi-junction Solar Cells
 
-This project introduces a novel framework for generating new crystal materials using equivariant diffusion models based on a graph-like representation of data. This offers a powerful approach to surpass previous implementations, as it considers interactions and similarities between close points (which are more likely to interact). As well, aligned with previous implementations, ours also allows maximizing arbitrary targets such as conductivity, absorption, and more, or looking for materials with specific properties (such as diffraction patterns or n-order transitions). The generated crystals demonstrate remarkable thermodynamic stability (convex-hull approach), compared against the Materials Project database. 
-
-The core technology behind this framework is based on deep convolutional layers and graph-like representation of data, where the diffusion process is achieved through the use of Markov chains. The denoising aspect of the model is implemented using convolutional graph neural networks, ensuring high-quality results, with which the noise of graphs is predicted and extracted, allowing the generation of an arbitrary number of novel, independent materials.
-
-This technology is suitable for different applications: from discovering improved ionic conductors beyond current databases to generating molecules for efficient water splitting. Moreover, the model itself can be applied to a variety of problems (concretely, any problem which can be formulated in terms of graphs), such as proposing enhanced distributions in social networks or traffic. Then, although applied to crystal material generation, this repository is divided into two independent functionalities:
-
-## Features
-
-- ...
-- ...
+This project introduces a novel framework for discovering novel families of materials composed of earth-abundant elements and characterized by non-toxicity, high thermodynamic stability and simple low-temperature synthesis processes, is paramount for the advancement of urgently needed energy storage and conversion technologies. Pnictogen chalcohalides, represented by the general formula ABC (A = Bi, Sb; B = S, Se; C = I, Br), emerge as a promising class of energy materials particularly well-suited for photovoltaic applications. However, the compositional landscape of Bi\textsubscript{x}Sb\textsubscript{1-x}S\textsubscript{y}Se\textsubscript{1-y}I\textsubscript{z}Br\textsubscript{1-z} is vast and remains largely unexplored, with traditional experimental and theoretical exploration techniques facing limitations in covering the entire solid-solution range due to their labor-intensive and time-consuming nature. Here, we introduce an integrated bottom-up approach that combines first-principles calculations and machine learning models to provide a comprehensive fundamental understanding of pnictogen chalcohalides with arbitrary composition and expedite the design of high-performance multi-junction solar cells. The introduced bottom-up materials design approach may facilitate an unprecedented and rapid translation of basic knowledge into the most demanded solar cell applications.
 
 Please be aware that the code is under active development, bug reports are welcomed in the GitHub issues!
 
@@ -18,14 +9,14 @@ Please be aware that the code is under active development, bug reports are welco
 To download the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/IonRepo/PredVCA.git
-cd PredVCA
+git clone https://github.com/IonRepo/ML-PCH.git
+cd ML-PCH
 pip3 install -r requirements.txt
 ```
 
 ## Execution
 
-A set of user-friendly jupyter notebook have been developed, which can be run locally with pytorch and pymatgen dependencies. It generates a graph-like database (from the Materials Project database or any other source) and trains the generative model to best reproduce those materials (and enhance some desired target, if desired).
+A set of user-friendly jupyter notebook have been developed, which can be run locally with sklearn and pymatgen dependencies. It predicts ground-state energy and optoelectronic properties for pnitogen chalcohalide-based solid solutions from density functional theory first-principles calculations.
 
 ## Citing
 
