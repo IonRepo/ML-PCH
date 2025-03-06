@@ -22,7 +22,7 @@ A set of user-friendly jupyter notebook have been developed, which can be run lo
 
 If you use this repository in your work, please consider citing:
 
-[`López et al. Machine-Learning Aided First-Principles Prediction of Earth-Abundant Pnictogen Chalcohalide Solid Solutions for Solar-Cell Devices. Adv. Funct. Mater. 2024, 34, 2406678.`](https://doi.org/10.21105/joss.06616](https://doi.org/10.1002/adfm.202406678)
+[`López et al. Machine-Learning Aided First-Principles Prediction of Earth-Abundant Pnictogen Chalcohalide Solid Solutions for Solar-Cell Devices. Adv. Funct. Mater. 2024, 34, 2406678.`](https://doi.org/10.1002/adfm.202406678)
 
 ## Authors
 
