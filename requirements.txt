@@ -1,0 +1,6 @@
+pymatgen
+numpy
+matplotlib
+pandas
+scikit-learn
+multiprocess
